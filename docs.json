@@ -17,35 +17,35 @@
           {
             "group": "入门指南",
             "pages": [
-              "getting-started/product-intro-and-reading-guide",
-              "getting-started/quickstart",
-              "getting-started/prepare",
-              "getting-started/overview-of-website-building-process"
+              "zh/getting-started/product-intro-and-reading-guide",
+              "zh/getting-started/quickstart",
+              "zh/getting-started/prepare",
+              "zh/getting-started/overview-of-website-building-process"
             ]
           },
           {
             "group": "建站实操",
             "pages": [
-              "building/how-to-describe-website-requirements",
-              "building/intent-recognition",
-              "building/website-editing-and-content-optimization"
+              "zh/building/how-to-describe-website-requirements",
+              "zh/building/intent-recognition",
+              "zh/building/website-editing-and-content-optimization"
             ]
           },
           {
             "group": "运营与发布",
             "pages": [
-              "operations/cms-and-website-operations",
-              "operations/domain-and-launch",
-              "operations/seo-and-content-growth"
+              "zh/operations/cms-and-website-operations",
+              "zh/operations/domain-and-launch",
+              "zh/operations/seo-and-content-growth"
             ]
           },
           {
             "group": "更多",
             "pages": [
-              "resources/inspiration-and-creativity",
-              "resources/pricing-plans-and-delivery-details",
-              "resources/faq",
-              "resources/contact-and-demo-entry"
+              "zh/resources/inspiration-and-creativity",
+              "zh/resources/pricing-plans-and-delivery-details",
+              "zh/resources/faq",
+              "zh/resources/contact-and-demo-entry"
             ]
           }
         ]
