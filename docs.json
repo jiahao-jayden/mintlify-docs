@@ -1,0 +1,77 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "maple",
+  "name": "we0 | 帮助文档",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "navigation": {
+    "anchors": [
+      {
+        "anchor": "帮助中心",
+        "color": {
+          "light": "#0d0d0d",
+          "dark": "#0d0d0d"
+        },
+        "pages": [
+          "product-intro-and-reading-guide",
+          "quickstart",
+          "prepare",
+          "overview-of-website-building-process",
+          "how-to-describe-website-requirements",
+          "intent-recognition",
+          "website-editing-and-content-optimization",
+          "cms-and-website-operations",
+          "domain-and-launch",
+          "seo-and-content-growth",
+          "inspiration-and-creativity",
+          "pricing-plans-and-delivery-details",
+          "faq",
+          "contact-and-demo-entry"
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:we0Core@wegc.cn"
+      }
+    ]
+  },
+  "contextual": {
+    "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
+  },
+  "favicon": "/images/logo.jpg",
+  "footer": {
+    "socials": {
+      "website": "https://we0.ai",
+      "github": "https://github.com/we0-dev"
+    }
+  },
+  "seo": {
+    "indexing": "all"
+  },
+  "metadata": {
+    "timestamp": false
+  },
+  "interaction": {
+    "drilldown": false
+  },
+  "logo": {
+    "light": "/images/we0-ai-dark-600x131.svg",
+    "dark": "/images/we0-ai-light-600x131.svg"
+  }
+}
