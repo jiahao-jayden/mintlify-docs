@@ -2,34 +2,91 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
   "name": "we0 | 帮助文档",
+  "description": "We0.ai 是一个 AI 建站平台，用自然语言描述需求即可生成完整网站，支持 CMS、SEO、域名绑定与持续运营。",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
   "navigation": {
-    "anchors": [
+    "languages": [
       {
-        "anchor": "帮助中心",
-        "color": {
-          "light": "#0d0d0d",
-          "dark": "#0d0d0d"
-        },
-        "pages": [
-          "product-intro-and-reading-guide",
-          "quickstart",
-          "prepare",
-          "overview-of-website-building-process",
-          "how-to-describe-website-requirements",
-          "intent-recognition",
-          "website-editing-and-content-optimization",
-          "cms-and-website-operations",
-          "domain-and-launch",
-          "seo-and-content-growth",
-          "inspiration-and-creativity",
-          "pricing-plans-and-delivery-details",
-          "faq",
-          "contact-and-demo-entry"
+        "language": "zh",
+        "default": true,
+        "groups": [
+          {
+            "group": "入门指南",
+            "pages": [
+              "getting-started/product-intro-and-reading-guide",
+              "getting-started/quickstart",
+              "getting-started/prepare",
+              "getting-started/overview-of-website-building-process"
+            ]
+          },
+          {
+            "group": "建站实操",
+            "pages": [
+              "building/how-to-describe-website-requirements",
+              "building/intent-recognition",
+              "building/website-editing-and-content-optimization"
+            ]
+          },
+          {
+            "group": "运营与发布",
+            "pages": [
+              "operations/cms-and-website-operations",
+              "operations/domain-and-launch",
+              "operations/seo-and-content-growth"
+            ]
+          },
+          {
+            "group": "更多",
+            "pages": [
+              "resources/inspiration-and-creativity",
+              "resources/pricing-plans-and-delivery-details",
+              "resources/faq",
+              "resources/contact-and-demo-entry"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "en/getting-started/product-intro-and-reading-guide",
+              "en/getting-started/quickstart",
+              "en/getting-started/prepare",
+              "en/getting-started/overview-of-website-building-process"
+            ]
+          },
+          {
+            "group": "Build Your Site",
+            "pages": [
+              "en/building/how-to-describe-website-requirements",
+              "en/building/intent-recognition",
+              "en/building/website-editing-and-content-optimization"
+            ]
+          },
+          {
+            "group": "Manage & Publish",
+            "pages": [
+              "en/operations/cms-and-website-operations",
+              "en/operations/domain-and-launch",
+              "en/operations/seo-and-content-growth"
+            ]
+          },
+          {
+            "group": "Resources",
+            "pages": [
+              "en/resources/inspiration-and-creativity",
+              "en/resources/pricing-plans-and-delivery-details",
+              "en/resources/faq",
+              "en/resources/contact-and-demo-entry"
+            ]
+          }
         ]
       }
     ]
@@ -44,15 +101,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "favicon": "/images/logo.jpg",
   "footer": {
